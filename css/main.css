@@ -1,0 +1,487 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+:root {
+  --primary: #111111;
+  --dark: #222222;
+  --accent: #eb5757;
+  --gray-mid: #828282;
+  --gray-light: #f5f5f5;
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 16px;
+  color: var(--primary);
+}
+
+.container {
+  width: 1165px;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--primary);
+}
+
+.sec-02 ul li:last-child,
+.sec-03 ul li:last-child,
+.sec-05 ul li:last-child,
+.footer .right .bottom_menu > li:last-child {
+  margin-right: 0;
+}
+
+/* header */
+
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 40px;
+  margin-right: 470px;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.menu li a {
+  margin-right: 49px;
+}
+
+.menu li:first-child a {
+  color: var(--accent);
+}
+
+.menu li:last-child a {
+  position: relative;
+  font-size: 25px;
+}
+
+.menu li:last-child a::after {
+  content: "2";
+  position: absolute;
+  top: -4px;
+  right: -6px;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  background: var(--accent);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--white);
+}
+
+/* section-01 */
+
+.sec-01 {
+  height: 600px;
+  background: var(--gray-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec-01 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec-01 .ccontainer .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-01 .left h3 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 64px;
+}
+
+.sec-01 .left ul {
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.sec-01 .left .btn-01 {
+  display: block;
+  width: 80px;
+  height: 30px;
+  border-bottom: 2px solid var(--primary);
+  box-sizing: border-box;
+  margin-right: 46px;
+}
+
+.sec-01 .left .btn-02 {
+  display: block;
+  width: 168px;
+  height: 46px;
+  background: var(--primary);
+  border-radius: 24px;
+  text-align: center;
+  line-height: 46px;
+  box-sizing: border-box;
+  color: var(--white);
+}
+
+.sec-01 .right h3 {
+  width: 700px;
+  height: 395px;
+  background: url(../images/tab-s7.png) no-repeat;
+  background-position: center;
+  text-indent: -9999px;
+}
+
+/* section-02 */
+.sec-02 {
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.sec-02 ul {
+  display: flex;
+}
+
+.sec-02 ul li {
+  width: 560px;
+  height: 320px;
+  background: var(--gray-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.sec-02 ul li .photo {
+  margin-right: 47px;
+}
+
+.sec-02 ul li .txt h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.sec-02 ul li .txt p {
+  margin: 16px 0 35px 0;
+}
+
+.sec-02 ul li .txt a {
+  display: block;
+  width: 121px;
+  height: 36px;
+  font-size: 14px;
+  border: 1px solid var(--primary);
+  border-radius: 20px;
+  line-height: 36px;
+  text-align: center;
+}
+
+/* section-03 */
+.sec-03 {
+  height: 570px;
+}
+
+.sec-03 .title {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.sec-03 .title h3 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 27px;
+}
+
+.sec-03 ul {
+  top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.sec-03 ul li a {
+  width: 260px;
+  height: 260px;
+  background: var(--gray-light);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+/* section-04 */
+
+.sec-04 {
+  height: 600px;
+  background: url(../images/image\ 5.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec-04 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec-04 .ccontainer .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-04 .left h3 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 64px;
+  color: var(--white);
+}
+
+.sec-04 .left p {
+  color: var(--white);
+  line-height: 1.6;
+  margin: 31px 0 56px;
+}
+
+.sec-04 .left .btn {
+  display: inline-block;
+  width: 168px;
+  height: 46px;
+  background: var(--gray-light);
+  border-radius: 24px;
+  text-align: center;
+  line-height: 46px;
+  box-sizing: border-box;
+}
+
+/* section-05 */
+.sec-05 {
+  height: 990px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-05 .title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sec-05 .title h3 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 27px;
+}
+
+.sec-05 ul {
+  top: 150px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.sec-05 ul li a {
+  width: 260px;
+  height: 260px;
+  background: var(--gray-light);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+/* section-06 */
+.sec-06 {
+  height: 570px;
+}
+
+.sec-06 .title {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.sec-06 .title h3 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 27px;
+}
+
+.sec-06 ul {
+  top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.sec-06 ul li a {
+  width: 360px;
+  height: 360px;
+  background: var(--gray-light);
+  box-sizing: border-box;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  text-indent: -9999px;
+}
+
+.sec-06 ul li:first-child a {
+  background: url(../images/pc_01_kv_kor_200325.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-06 ul li:nth-child(2) a {
+  background: url(../images/mo_21_kv_200318.png) no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.sec-06 ul li:last-child a {
+  background: url(../images/mkt_pdp_flagship_kv_s7_200818.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 0;
+}
+
+/* footer */
+footer {
+  height: 600px;
+  background: var(--dark);
+  color: var(--white);
+}
+
+footer a {
+  color: var(--white);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .left,
+.footer .right {
+  margin-top: 120px;
+}
+
+.footer .left h3 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.2;
+  margin-bottom: 35px;
+}
+
+.footer .left p {
+  font-size: 14px;
+  letter-spacing: -0.2;
+  line-height: 18px;
+  margin-bottom: 14px;
+}
+
+.footer .left .search {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.footer .left .search .email {
+  width: 358px;
+  height: 50px;
+  background: var(--gray-light);
+  box-sizing: border-box;
+  color: var(--gray-mid);
+  padding-left: 20px;
+}
+
+.footer .left .search .submit {
+  width: 100px;
+  height: 50px;
+  background: var(--accent);
+  color: var(--white);
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.footer .left .app {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.footer .left .app li a {
+  display: block;
+  width: 130px;
+  height: 40px;
+  border: 1px solid var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.footer .left .app li a img {
+  margin-right: 7px;
+}
+
+.footer .left .social {
+  font-size: 30px;
+  display: flex;
+  margin-bottom: 65px;
+}
+
+.footer .left .social li {
+  margin-right: 16px;
+}
+
+.footer .left .copyright {
+  font-size: 12px;
+  letter-spacing: -0.4;
+}
+
+.footer .right .bottom_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .right .bottom_menu > li {
+  display: block;
+  margin-right: 124px;
+}
+
+.footer .right .bottom_menu > li > a {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 52px;
+}
+
+.footer .right .bottom_menu > li > ul a {
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
